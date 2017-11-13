@@ -23,7 +23,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.3.4",
-    "uniqCompNum": 26,
+    "uniqCompNum": 27,
     "versionPublish": "4.3.4",
     "siteUrl": "",
     "sitemapSwitcherAuto": "on"
@@ -73,10 +73,13 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@THEME_PATH@/components/_images/desert.jpg"
+              "src": "@PROJECT_PATH@/assets/images/desert.jpg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
             },
             "video": {
-              "active": true,
               "src": "https://youtu.be/Epc0bNbHpwk",
               "aspectratio": "16:9",
               "autoplay": "on",
@@ -98,6 +101,26 @@
           "_anchor": "msg-box7-o"
         },
         {
+          "_inherit": "soundcloud1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "sound": "https://soundcloud.com/alkhoiri/gamelan-javanese-music-gending",
+            "autoplay": true,
+            "fullWidth": true,
+            "bgColor": "#fff"
+          },
+          "alias": "soundcloud",
+          "_tags": [
+            "Extension"
+          ],
+          "_afterNavbarItem": false,
+          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F66722516&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+          "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F66722516",
+          "_name": "soundcloud2",
+          "_anchor": "soundcloud2-q"
+        },
+        {
           "_params": {
             "autoplay": true,
             "fullScreen": true,
@@ -109,7 +132,7 @@
             "slides": [
               {
                 "image": "@THEME_PATH@/components/_images/slider/man-back.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -123,10 +146,10 @@
               },
               {
                 "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "title": "IMAGE SLIDE",
